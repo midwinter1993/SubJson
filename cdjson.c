@@ -337,7 +337,7 @@ void json_destroy(Json *obj) {
 
 // ===============================================
 
-int json_ingeger(Json *obj) {
+int json_integer(Json *obj) {
     return json_as_integer(obj)->value_;
 }
 
