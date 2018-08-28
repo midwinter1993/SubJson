@@ -7,7 +7,7 @@ Json* json_parse(const char*);
 void json_dump(Json*);
 void json_destroy(Json*);
 
-int json_ingeger(Json *);
+int json_integer(Json *);
 const char* json_string(Json *);
 Json* json_map(Json*, const char*);
 int json_map_size(Json*);
